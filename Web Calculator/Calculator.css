@@ -1,0 +1,86 @@
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border:none;
+    background-color:hsl(0, 0%, 30%);
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+    font-weight:bold;
+}
+#btns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:25px;
+
+}
+#main{
+    background-color:hsl(0, 0%, 10%);
+    border-radius:20px;
+    max-width:500px;
+    overflow:hidden;
+
+}
+#output{
+    width: 100%;
+    background-color:hsl(0, 0%, 35%);
+    text-align:left;
+    height:120px;
+    color:white;
+    border:none;
+    font-size:45px;
+    font-weight:bolder;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+button:hover{
+    background-color:hsl(0, 0%, 35%);
+    font-size:35px;
+}
+button:active{
+    background-color:hsl(0, 0%, 25%);
+    font-size:25px;
+}
+.opp{
+    background-color: rgb(255, 123, 0);
+}
+.opp:hover{
+    background-color: orange;
+}
+.opp:active{
+    background-color: rgb(255, 94, 0);
+}
+#clc{
+    background-color: rgb(68, 68, 255);
+}
+#clc:hover{
+    background-color: rgb(92, 92, 255);
+}
+#clc:active{
+    background-color: rgb(0, 0, 255);
+}
+.scnd{
+    background-color: rgb(151, 151, 151);
+}
+.scnd:hover{
+    background-color: rgb(186, 184, 184);
+}
+.scnd:active{
+    background-color: rgb(93, 92, 92);
+}
+.mvt{
+    position:relative;
+    left:50px;
+}
+#dlt{
+    position: relative;
+    left:100px;
+}
